@@ -10,7 +10,7 @@
         <style type="text/css">
             body {
                 width: 100%;
-                background: url(image/book.png) ;
+                background: url(image/blue1.jpg) ;
                 background-position: center center;
                 background-repeat: no-repeat;
                 background-attachment: fixed;
@@ -21,10 +21,10 @@
     <body>
         <center>
             <div class="intro">
-                <h1> Jogo das perguntas </h1>
-                <a href="login.php" class="btn"> login </a> &emsp;
-                <a href="register.php" class="btn"> register </a>
-                <h2> Good &nbsp;Luck. </h2>
+                <h1>Jogo: Quem sabe sabe ! </h1>
+                <a href="login.php" class="btn"> LOGAR </a> &emsp;
+                <a href="register.php" class="btn"> CADASTRAR </a>
+                <h2> BOA &nbsp; SORTE. </h2>
             </div>
         </center>
     </body>

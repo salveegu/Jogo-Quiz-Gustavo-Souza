@@ -43,14 +43,15 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta http-equiv="X-UA-Compatible" content="ie=edge">
-		<title>Login | Online Quiz System</title>
+		<title>Área de login | Jogo quem sabe sabe </title>
 		<link rel="stylesheet" href="scripts/bootstrap/bootstrap.min.css">
 		<link rel="stylesheet" href="scripts/ionicons/css/ionicons.min.css">
 		<link rel="stylesheet" href="css/form.css">
+		<link rel="stylesheet" href="css/style.css"> 
         <style type="text/css">
             body{
                   width: 100%;
-                  background: url(image/book.png) ;
+                  background: url(image/blue1.jpg) ;
                   background-position: center center;
                   background-repeat: no-repeat;
                   background-attachment: fixed;
@@ -60,28 +61,34 @@
 	</head>
 
 	<body>
+    
+	<div class="home">
+	<header class="home"><h3><a href="index.php">Home</a> </h3></header>
+	</div>
+	
+
 		<section class="login first grey">
 			<div class="container">
 				<div class="box-wrapper">				
 					<div class="box box-border">
 						<div class="box-body">
-						<center> <h5 style="font-family: Noto Sans;">Login to </h5><h4 style="font-family: Noto Sans;">Online Quiz System</h4></center><br>
+						<center> <h5 style="font-family: Noto Sans;">Acessando </h5><h4 style="font-family: Noto Sans;">Jogo: Quem sabe sabe!</h4></center><br>
 							<form method="post" action="login.php" enctype="multipart/form-data">
 								<div class="form-group">
-									<label>Enter Your Email Id:</label>
+									<label>Endereço de email:</label>
 									<input type="email" name="email" class="form-control">
 								</div>
 								<div class="form-group">
-									<label class="fw">Enter Your Password:
-										<a href="javascript:void(0)" class="pull-right">Forgot Password?</a>
+									<label class="fw">Sua Senha:
+										<a href="javascript:void(0)" class="pull-right">Esqueceu a senha né?</a>
 									</label>
 									<input type="password" name="password" class="form-control">
 								</div> 
 								<div class="form-group text-right">
-									<button class="btn btn-primary btn-block" name="submit">Login</button>
+									<button class="btn btn-primary btn-block" name="submit">Logar xD</button>
 								</div>
 								<div class="form-group text-center">
-									<span class="text-muted">Don't have an account?</span> <a href="register.php">Register</a> Here..
+									<span class="text-muted">Não tem uma conta ainda?</span> <a href="register.php">Registre</a> Aqui..
 								</div>
 							</form>
 						</div>
