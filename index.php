@@ -19,13 +19,17 @@
         </style>
     </head>
     <body>
+    
         <center>
+            
             <div class="intro">
                 <h1>Jogo: Quem sabe sabe ! </h1>
-                <a href="login.php" class="btn"> LOGAR </a> &emsp;
+                <a href="login.php" class="btn"> JOGAR </a> &emsp;
                 <a href="register.php" class="btn"> CADASTRAR </a>
                 <h2> BOA &nbsp; SORTE. </h2>
             </div>
+         
         </center>
+     
     </body>
 </html>

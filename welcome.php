@@ -66,7 +66,7 @@
                 {
                     $result = mysqli_query($con,"SELECT * FROM quiz ORDER BY date DESC") or die('Error');
                     echo  '<div class="panel"><div class="table-responsive"><table class="table table-striped title1">
-                    <tr><td><center><b>Posição</b></center></td><td><center><b>Topic</b></center></td><td><center><b>Total question</b></center></td><td><center><b>Marks</center></b></td><td><center><b>Action</b></center></td></tr>';
+                    <tr><td><center><b>Posição</b></center></td><td><center><b>Tópico</b></center></td><td><center><b>Total de perguntas</b></center></td><td><center><b>Acertos</center></b></td><td><center><b>Ação</b></center></td></tr>';
                     $c=1;
                     while($row = mysqli_fetch_array($result)) {
                         $title = $row['title'];
