@@ -39,7 +39,7 @@ CREATE TABLE `admin` (
 --
 
 INSERT INTO `admin` (`admin_id`, `email`, `password`) VALUES
-(1, 'suryaprasadtripathy8@gmail.com', 'pinkylove');
+(1, 'admin@gmail.com', 'admin');
 
 -- --------------------------------------------------------
 
@@ -101,10 +101,10 @@ CREATE TABLE `history` (
 --
 
 INSERT INTO `history` (`email`, `eid`, `score`, `level`, `sahi`, `wrong`, `date`) VALUES
-('suryaprasadtripathy8@gmail.com', '5b141b8009cf0', 22, 10, 8, 2, '2018-06-03 16:56:00'),
-('pinky@gmail.com', '5b141b8009cf0', 30, 10, 10, 0, '2018-06-03 16:57:45'),
-('priyanka@gmail.com', '5b141b8009cf0', 22, 10, 8, 2, '2018-06-03 16:59:06'),
-('suryaprasadtripathy8@gmail.com', '5b141f1e8399e', 26, 10, 9, 1, '2018-06-03 17:17:26');
+('jogador1@gmail.com', '5b141b8009cf0', 22, 10, 8, 2, '20221-06-03 16:56:00'),
+('gustavo@gmail.com', '5b141b8009cf0', 30, 10, 10, 0, '2018-06-03 16:57:45'),
+('thalia@gmail.com', '5b141b8009cf0', 22, 10, 8, 2, '2018-06-03 16:59:06'),
+('rafaela@gmail.com', '5b141f1e8399e', 26, 10, 9, 1, '2018-06-03 17:17:26');
 
 -- --------------------------------------------------------
 
@@ -171,46 +171,46 @@ INSERT INTO `options` (`qid`, `option`, `optionid`) VALUES
 ('5b141d737ddfc', 'implode()', '5b141d73858df'),
 ('5b141d737ddfc', 'concat()', '5b141d73858e3'),
 ('5b141d737ddfc', 'concatenate()', '5b141d73858e8'),
-('5b1422651fdde', '32 bits', '5b1422654ab3a'),
-('5b1422651fdde', '128 bytes', '5b1422654ab48'),
-('5b1422651fdde', '64 bits', '5b1422654ab4d'),
-('5b1422651fdde', '16 bytes', '5b1422654ab51'),
-('5b14226574ed5', 'IP', '5b1422657d052'),
-('5b14226574ed5', 'TCP', '5b1422657d05f'),
-('5b14226574ed5', 'UDP', '5b1422657d064'),
-('5b14226574ed5', 'ARP', '5b1422657d069'),
-('5b142265b5d08', 'Session layer', '5b142265c09e3'),
-('5b142265b5d08', 'Physical layer', '5b142265c09f5'),
-('5b142265b5d08', 'Data Link layer', '5b142265c09fa'),
-('5b142265b5d08', 'Application layer', '5b142265c09ff'),
-('5b1422661d93f', '12.0.0.1', '5b14226635df5'),
-('5b1422661d93f', '168.172.19.39', '5b14226635e04'),
-('5b1422661d93f', '172.15.14.36', '5b14226635e09'),
-('5b1422661d93f', '192.168.24.43', '5b14226635e0d'),
-('5b14226663cf4', 'Application', '5b1422666bf2b'),
-('5b14226663cf4', 'Presentation', '5b1422666bf39'),
-('5b14226663cf4', 'Session', '5b1422666bf3e'),
-('5b14226663cf4', 'Transport', '5b1422666bf42'),
-('5b1422669481b', 'VTP', '5b1422669c8dc'),
-('5b1422669481b', 'STP', '5b1422669c8ea'),
-('5b1422669481b', 'RIP', '5b1422669c8ef'),
-('5b1422669481b', 'CDP', '5b1422669c8f3'),
-('5b142266c525c', '14', '5b142266cd353'),
-('5b142266c525c', '15', '5b142266cd361'),
-('5b142266c525c', '16', '5b142266cd365'),
-('5b142266c525c', '30', '5b142266cd369'),
-('5b14226711d91', '255.255.255.192', '5b14226719fa0'),
-('5b14226711d91', '255.255.255.224', '5b14226719fb1'),
-('5b14226711d91', '255.255.255.240', '5b14226719fb7'),
-('5b14226711d91', '255.255.255.248', '5b14226719fbb'),
-('5b1422674286d', '6', '5b1422674a9ee'),
-('5b1422674286d', '8', '5b1422674aa01'),
-('5b1422674286d', '30', '5b1422674aa06'),
-('5b1422674286d', '32', '5b1422674aa0b'),
-('5b1422677371f', '127.0.0.0', '5b1422677b3e9'),
-('5b1422677371f', '1.0.0.127', '5b1422677b3f7'),
-('5b1422677371f', '127.0.0.1', '5b1422677b3fc'),
-('5b1422677371f', '127.0.0.255', '5b1422677b400');
+('5b1422651fdde', 'Legenda', '5b1422654ab3a'),
+('5b1422651fdde', 'Conto', '5b1422654ab48'),
+('5b1422651fdde', 'História', '5b1422654ab4d'),
+('5b1422651fdde', 'Lenda', '5b1422654ab51'),
+('5b14226574ed5', '8', '5b1422657d052'),
+('5b14226574ed5', '10', '5b1422657d05f'),
+('5b14226574ed5', '7', '5b1422657d064'),
+('5b14226574ed5', '9', '5b1422657d069'),
+('5b142265b5d08', 'Miguel de Cervantes, Gregório de Matos e Danthe Alighieri', '5b142265c09e3'),
+('5b142265b5d08', 'Gregório de Matos, Bento Teixeira e Manuel Botelho de Oliveira', '5b142265c09f5'),
+('5b142265b5d08', 'Padre Antônio Vieira, Padre Manuel de Melo e Gregório de Matos', '5b142265c09fa'),
+('5b142265b5d08', 'Castro Alves, Bento Teixeira e Manuel Botelho de Oliveira', '5b142265c09ff'),
+('5b1422661d93f', 'Independência do Brasil e Dia da Bandeira', '5b14226635df5'),
+('5b1422661d93f', 'Dia de Finados e Dia Nacional do Livro', '5b14226635e04'),
+('5b1422661d93f', 'Dia do Médico e Dia de São Lucas', '5b14226635e09'),
+('5b1422661d93f', 'Proclamação da República e Dia Nacional da Consciência Negra', '5b14226635e0d'),
+('5b14226663cf4', ' Pablo Picasso', '5b1422666bf2b'),
+('5b14226663cf4', 'Paul Cézanne', '5b1422666bf39'),
+('5b14226663cf4', 'Diego Rivera', '5b1422666bf3e'),
+('5b14226663cf4', 'Tarsila do Amaral', '5b1422666bf42'),
+('5b1422669481b', '12 minutos', '5b1422669c8dc'),
+('5b1422669481b', '8 minutos', '5b1422669c8ea'),
+('5b1422669481b', '12 horas', '5b1422669c8ef'),
+('5b1422669481b', '5 segundos', '5b1422669c8f3'),
+('5b142266c525c', 'Fabiano coseu seu paletó antes de sair', '5b142266cd353'),
+('5b142266c525c', 'Fabiano fechou o saco antes de sair', '5b142266cd361'),
+('5b142266c525c', 'Fabiano cortou o saco antes de cair', '5b142266cd365'),
+('5b142266c525c', 'Fabiano pegou seu paletó antes de sair', '5b142266cd369'),
+('5b14226711d91', 'Boliviana', '5b14226719fa0'),
+('5b14226711d91', 'Argentina', '5b14226719fb1'),
+('5b14226711d91', 'Panamenha', '5b14226719fb7'),
+('5b14226711d91', 'Cubana', '5b14226719fbb'),
+('5b1422674286d', 'Hiena, urso branco e lobo cinzento', '5b1422674a9ee'),
+('5b1422674286d', 'Tubarão branco, crocodilo e sucuri', '5b1422674aa01'),
+('5b1422674286d', 'Tigre, gavião e orca', '5b1422674aa06'),
+('5b1422674286d', 'Orca, onça e tarântula', '5b1422674aa0b'),
+('5b1422677371f', '2,4 para ambos', '5b1422677b3e9'),
+('5b1422677371f', '2,5 m e 2,0 m', '5b1422677b3f7'),
+('5b1422677371f', ' 2,43 m e 2,24 m', '5b1422677b3fc'),
+('5b1422677371f', '1,8 m e 1,5 m', '5b1422677b400');
 
 -- --------------------------------------------------------
 
@@ -243,6 +243,8 @@ INSERT INTO `questions` (`eid`, `qid`, `qns`, `choice`, `sn`) VALUES
 ('5b141b8009cf0', '5b141d731429b', 'Quantas casas decimais tem o número pi?', 4, 8),
 ('5b141b8009cf0', '5b141d7345176', 'Atualmente, quantos elementos químicos a tabela periódica possui?', 4, 9),
 ('5b141b8009cf0', '5b141d737ddfc', 'Quais os países que têm a maior e a menor expectativa de vida do mundo?', 4, 10),
+
+
 ('5b141f1e8399e', '5b1422651fdde', 'O que a palavra legend significa em português?', 4, 1),
 ('5b141f1e8399e', '5b14226574ed5', 'Qual o número mínimo de jogadores numa partida de futebol?', 4, 2),
 ('5b141f1e8399e', '5b142265b5d08', 'Quais os principais autores do Barroco no Brasil?', 4, 3),
@@ -274,8 +276,8 @@ CREATE TABLE `quiz` (
 --
 
 INSERT INTO `quiz` (`eid`, `title`, `sahi`, `wrong`, `total`, `date`) VALUES
-('5b141b8009cf0', 'Php & Mysqli', 3, 1, 10, '2018-06-03 16:46:56'),
-('5b141f1e8399e', 'Ip Networking', 3, 1, 10, '2018-06-03 17:02:22');
+('5b141b8009cf0', 'Perguntas Gerais', 3, 1, 10, '2018-06-03 16:46:56'),
+('5b141f1e8399e', 'Perguntas gerais', 3, 1, 10, '2018-06-03 17:02:22');
 
 -- --------------------------------------------------------
 
@@ -294,8 +296,8 @@ CREATE TABLE `rank` (
 --
 
 INSERT INTO `rank` (`email`, `score`, `time`) VALUES
-('pinky@gmail.com', 30, '2018-06-03 16:57:45'),
-('priyanka@gmail.com', 22, '2018-06-03 16:59:06');
+('gustavo@gmail.com', 30, '2018-06-03 16:57:45'),
+('thalia@gmail.com', 22, '2018-06-03 16:59:06');
 
 -- --------------------------------------------------------
 
@@ -315,8 +317,8 @@ CREATE TABLE `user` (
 --
 
 INSERT INTO `user` (`name`, `college`, `email`, `password`) VALUES
-('Swagatika Padhi', 'National Institute of Science and Technology, Berhampur', 'pinky@gmail.com', 'pinky'),
-('Priyanka Pattnaik', 'National Institute of Science and Technology, Berhampur', 'priyanka@gmail.com', 'pinka');
+('Gustavo', 'IFC', 'gustavo@gmail.com', '12345'),
+('Thalia', 'AM', 'thalia@gmail.com', '12345');
 
 --
 -- Indexes for dumped tables
