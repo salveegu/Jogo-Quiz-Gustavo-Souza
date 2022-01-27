@@ -65,30 +65,30 @@
 				<div class="box-wrapper">				
 					<div class="box box-border">
 						<div class="box-body">
-							<center> <h5 style="font-family: Noto Sans;">Register to </h5><h4 style="font-family: Noto Sans;">Online Quiz System</h4></center><br>
+							<center> <h5 style="font-family: Noto Sans;">Register to </h5><h4 style="font-family: Noto Sans;">Jogo quem Sabe Sabe!</h4></center><br>
 							<form method="post" action="register.php" enctype="multipart/form-data">
                                 <div class="form-group">
-									<label>Enter Your Username:</label>
+									<label>Entre com seu usuário:</label>
 									<input type="text" name="name" class="form-control" required />
 								</div>
 								<div class="form-group">
-									<label>Enter Your Email Id:</label>
+									<label>Entre com seu endereço de email:</label>
 									<input type="email" name="email" class="form-control" required />
 								</div>
 								<div class="form-group">
-									<label>Enter Your Password:</label>
+									<label>Entre com a sua senha:</label>
 									<input type="password" name="password" class="form-control" required />
                                 </div>
 								<div class="form-group">
-									<label>Enter Your College Name:</label>
+									<label>Entre com o nome da Instituição de ensino:</label>
 									<input type="text" name="college" class="form-control" required />
 								</div>
                                 
 								<div class="form-group text-right">
-									<button class="btn btn-primary btn-block" name="submit">Register</button>
+									<button class="btn btn-primary btn-block" name="submit">Registrar</button>
 								</div>
 								<div class="form-group text-center">
-									<span class="text-muted">Already have an account! </span> <a href="login.php">Login </a> Here..
+									<span class="text-muted">Você já tem uma conta! </span> <a href="login.php">Login </a> Aqui..
 								</div>
 							</form>
 						</div>
